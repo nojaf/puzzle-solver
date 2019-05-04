@@ -11,10 +11,12 @@
   "scripts": {
     "postinstall": "paket restore && paket generate-load-scripts -f netstandard2.0 -t fsx",
     "start": "webpack-dev-server",
-    "build": "webpack -p"
+    "build": "webpack -p",
+    "deploy": "gh-pages -d public"
   },
   "devDependencies": {
     "css-loader": "^2.1.1",
+    "gh-pages": "^2.0.1",
     "prettier": "^1.17.0",
     "style-loader": "^0.23.1"
   }
