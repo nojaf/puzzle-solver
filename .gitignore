@@ -1,9 +1,0 @@
-dist/main.js*
-.paket/.store
-.paket/paket.exe
-.paket/load
-paket-files/
-public/bundle.js
-node_modules/
-.idea/
-.vscode/
